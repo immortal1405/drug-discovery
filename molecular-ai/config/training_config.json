@@ -1,0 +1,78 @@
+{
+    "project_id": "moleculargeneration",
+    "location": "us-central1",
+    "experiment_name": "molecular-property-prediction",
+    
+    "model_config": {
+        "node_features": 7,
+        "edge_features": 4,
+        "hidden_dim": 256,
+        "num_layers": 3,
+        "num_tasks": 6
+    },
+    
+    "training_config": {
+        "batch_size": 32,
+        "learning_rate": 0.0005,
+        "num_epochs": 100,
+        "patience": 10
+    },
+    
+    "vae_model_config": {
+        "node_features": 120,
+        "hidden_dim": 256,
+        "latent_dim": 128,
+        "max_nodes": 100,
+        "num_enc_layers": 3,
+        "heads_enc": 4,
+        "dropout_enc": 0.2,
+        "num_dec_layers": 3,
+        "heads_dec": 4,
+        "dropout_dec": 0.2,
+        "lora_r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.1
+    },
+    
+    "vae_training_config": {
+        "batch_size": 64,
+        "learning_rate": 0.001,
+        "num_epochs": 100,
+        "beta": 1.0,
+        "patience": 15,
+        "checkpoint_dir": "models/vae_checkpoints",
+        "anneal_beta": false,
+        "beta_start": 0.001,
+        "beta_end": 1.0,
+        "beta_anneal_epochs": 50,
+        "kld_free_bits_lambda": 0.2
+    },
+    
+    "rl_optimization_config": {
+        "vae_checkpoint_path": "models/vae_checkpoints/final_vae_model.pt",
+        "predictor_checkpoint_path": "models/best_model.pt",
+        "learning_rate": 1e-5,
+        "num_iterations": 2000,
+        "batch_size": 64,
+        "target_logp": 3.0,
+        "validity_weight": 1.0,
+        "property_weight": 1.0,
+        "log_interval": 20,
+        "checkpoint_interval": 200,
+        "output_dir": "models/rl_optimized_vae"
+    },
+    
+    "data_config": {
+        "train_split": 0.7,
+        "val_split": 0.15,
+        "test_split": 0.15,
+        "random_seed": 42
+    },
+    
+    "vertex_ai_config": {
+        "machine_type": "n1-standard-8",
+        "accelerator_type": "NVIDIA_TESLA_T4",
+        "accelerator_count": 1,
+        "replica_count": 1
+    }
+} 

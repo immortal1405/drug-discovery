@@ -1,0 +1,11 @@
+declare module 'react-icons/fa';
+declare module 'react-icons/fa6';
+declare module 'react-icons/io';
+declare module 'react-icons/io5';
+declare module 'react-icons/md';
+declare module 'react-icons/ai';
+declare module 'react-icons/bs';
+declare module 'react-icons/ri';
+declare module 'react-icons/fi';
+declare module 'react-icons/cg';
+declare module 'react-icons/all'; 

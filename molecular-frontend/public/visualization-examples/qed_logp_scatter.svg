@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff" />
+  
+  <!-- Chart area -->
+  <rect x="80" y="50" width="680" height="480" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" />
+  
+  <!-- Chart title -->
+  <text x="400" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">QED vs LogP Scatter Plot</text>
+  
+  <!-- X axis -->
+  <line x1="80" y1="530" x2="760" y2="530" stroke="#495057" stroke-width="2" />
+  <!-- X axis title -->
+  <text x="420" y="570" font-family="Arial" font-size="16" text-anchor="middle">LogP (Lipophilicity)</text>
+  
+  <!-- X axis ticks and labels -->
+  <line x1="110" y1="530" x2="110" y2="535" stroke="#495057" stroke-width="1" />
+  <text x="110" y="550" font-family="Arial" font-size="12" text-anchor="middle">-2.0</text>
+  
+  <line x1="220" y1="530" x2="220" y2="535" stroke="#495057" stroke-width="1" />
+  <text x="220" y="550" font-family="Arial" font-size="12" text-anchor="middle">0.0</text>
+  
+  <line x1="330" y1="530" x2="330" y2="535" stroke="#495057" stroke-width="1" />
+  <text x="330" y="550" font-family="Arial" font-size="12" text-anchor="middle">2.0</text>
+  
+  <line x1="440" y1="530" x2="440" y2="535" stroke="#495057" stroke-width="1" />
+  <text x="440" y="550" font-family="Arial" font-size="12" text-anchor="middle">4.0</text>
+  
+  <line x1="550" y1="530" x2="550" y2="535" stroke="#495057" stroke-width="1" />
+  <text x="550" y="550" font-family="Arial" font-size="12" text-anchor="middle">6.0</text>
+  
+  <line x1="660" y1="530" x2="660" y2="535" stroke="#495057" stroke-width="1" />
+  <text x="660" y="550" font-family="Arial" font-size="12" text-anchor="middle">8.0</text>
+  
+  <!-- Y axis -->
+  <line x1="80" y1="50" x2="80" y2="530" stroke="#495057" stroke-width="2" />
+  <!-- Y axis title -->
+  <text x="30" y="290" font-family="Arial" font-size="16" text-anchor="middle" transform="rotate(-90, 30, 290)">QED (Drug-likeness)</text>
+  
+  <!-- Y axis ticks and labels -->
+  <line x1="75" y1="530" x2="80" y2="530" stroke="#495057" stroke-width="1" />
+  <text x="70" y="535" font-family="Arial" font-size="12" text-anchor="end">0.0</text>
+  
+  <line x1="75" y1="450" x2="80" y2="450" stroke="#495057" stroke-width="1" />
+  <text x="70" y="455" font-family="Arial" font-size="12" text-anchor="end">0.2</text>
+  
+  <line x1="75" y1="370" x2="80" y2="370" stroke="#495057" stroke-width="1" />
+  <text x="70" y="375" font-family="Arial" font-size="12" text-anchor="end">0.4</text>
+  
+  <line x1="75" y1="290" x2="80" y2="290" stroke="#495057" stroke-width="1" />
+  <text x="70" y="295" font-family="Arial" font-size="12" text-anchor="end">0.6</text>
+  
+  <line x1="75" y1="210" x2="80" y2="210" stroke="#495057" stroke-width="1" />
+  <text x="70" y="215" font-family="Arial" font-size="12" text-anchor="end">0.8</text>
+  
+  <line x1="75" y1="130" x2="80" y2="130" stroke="#495057" stroke-width="1" />
+  <text x="70" y="135" font-family="Arial" font-size="12" text-anchor="end">1.0</text>
+  
+  <!-- Lipinski rule line (vertical) -->
+  <line x1="550" y1="50" x2="550" y2="530" stroke="#d62728" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="555" y="70" font-family="Arial" font-size="10" fill="#d62728">LogP ≤ 5.0</text>
+  
+  <!-- Rule of thumb for QED (horizontal) -->
+  <line x1="80" y1="210" x2="760" y2="210" stroke="#2ca02c" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="90" y="195" font-family="Arial" font-size="10" fill="#2ca02c">QED ≥ 0.8 (High drug-likeness)</text>
+  
+  <!-- Ideal region (upper left rectangle) -->
+  <rect x="80" y="50" width="470" height="160" fill="#2ca02c" opacity="0.1" />
+  <text x="150" y="100" font-family="Arial" font-size="12" fill="#2ca02c" font-weight="bold">Ideal Region</text>
+  <text x="150" y="120" font-family="Arial" font-size="10" fill="#2ca02c">High QED, LogP < 5.0</text>
+  
+  <!-- Data points (scatter plot) -->
+  <!-- Each circle represents a molecule, color and size based on properties -->
+  <circle cx="170" cy="180" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="220" cy="200" r="5" fill="#1f77b4" opacity="0.7" />
+  <circle cx="250" cy="170" r="7" fill="#1f77b4" opacity="0.7" />
+  <circle cx="280" cy="150" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="310" cy="180" r="5" fill="#1f77b4" opacity="0.7" />
+  <circle cx="335" cy="140" r="8" fill="#1f77b4" opacity="0.7" />
+  <circle cx="370" cy="120" r="7" fill="#1f77b4" opacity="0.7" />
+  <circle cx="400" cy="160" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="430" cy="200" r="5" fill="#1f77b4" opacity="0.7" />
+  <circle cx="460" cy="230" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="490" cy="250" r="7" fill="#1f77b4" opacity="0.7" />
+  <circle cx="520" cy="190" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="550" cy="220" r="5" fill="#1f77b4" opacity="0.7" />
+  <circle cx="580" cy="270" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="610" cy="300" r="5" fill="#1f77b4" opacity="0.7" />
+  <circle cx="640" cy="330" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="670" cy="350" r="7" fill="#1f77b4" opacity="0.7" />
+  <circle cx="700" cy="390" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="230" cy="270" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="290" cy="310" r="5" fill="#1f77b4" opacity="0.7" />
+  <circle cx="350" cy="280" r="7" fill="#1f77b4" opacity="0.7" />
+  <circle cx="410" cy="260" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="470" cy="350" r="5" fill="#1f77b4" opacity="0.7" />
+  <circle cx="530" cy="310" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="590" cy="380" r="7" fill="#1f77b4" opacity="0.7" />
+  <circle cx="650" cy="410" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="380" cy="400" r="5" fill="#1f77b4" opacity="0.7" />
+  <circle cx="440" cy="450" r="6" fill="#1f77b4" opacity="0.7" />
+  <circle cx="500" cy="430" r="7" fill="#1f77b4" opacity="0.7" />
+  <circle cx="560" cy="460" r="6" fill="#1f77b4" opacity="0.7" />
+  
+  <!-- Stats box -->
+  <rect x="600" y="70" width="150" height="120" fill="white" stroke="#dee2e6" stroke-width="1" rx="5" ry="5" />
+  <text x="610" y="90" font-family="Arial" font-size="12" font-weight="bold">Statistics:</text>
+  <text x="610" y="110" font-family="Arial" font-size="12">Correlation: -0.73</text>
+  <text x="610" y="130" font-family="Arial" font-size="12">QED mean: 0.72</text>
+  <text x="610" y="150" font-family="Arial" font-size="12">LogP mean: 2.34</text>
+  <text x="610" y="170" font-family="Arial" font-size="12">Ideal region: 32%</text>
+  <text x="610" y="190" font-family="Arial" font-size="12">n = 30 molecules</text>
+</svg> 

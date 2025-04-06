@@ -1,0 +1,23 @@
+{
+    "model_config": {
+        "node_features": 120,
+        "hidden_dim": 128,
+        "latent_dim": 64,
+        "max_nodes": 50,
+        "num_enc_layers": 3,
+        "heads": 4
+    },
+    "training_config": {
+        "batch_size": 64,
+        "learning_rate": 0.001,
+        "num_epochs": 200,
+        "patience": 20,
+        "beta": 1.0
+    },
+    "vertex_ai_config": {
+        "use_vertex_ai": false,
+        "project_id": "your-gcp-project-id",
+        "location": "us-central1",
+        "experiment_name": "graph-vae-training"
+    }
+}

@@ -1,0 +1,5 @@
+validity_rate: 1.0
+qed_mean: 0.4807269701170316
+logp_mean: 1.07265
+fingerprint_diversity: 0.9275434510380103
+scaffold_diversity: 0.43333333333333335

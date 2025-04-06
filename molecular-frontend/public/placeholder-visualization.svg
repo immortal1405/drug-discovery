@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f8f9fa" rx="10" ry="10" />
+  <circle cx="100" cy="100" r="30" fill="#e9ecef" />
+  <line x1="70" y1="100" x2="40" y2="100" stroke="#adb5bd" stroke-width="2" />
+  <line x1="130" y1="100" x2="160" y2="100" stroke="#adb5bd" stroke-width="2" />
+  <line x1="100" y1="70" x2="100" y2="40" stroke="#adb5bd" stroke-width="2" />
+  <line x1="100" y1="130" x2="100" y2="160" stroke="#adb5bd" stroke-width="2" />
+  <text x="100" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">C</text>
+  <text x="100" y="180" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">Molecule Image</text>
+  <text x="100" y="195" font-family="Arial" font-size="10" text-anchor="middle" fill="#777">Image not available</text>
+</svg> 

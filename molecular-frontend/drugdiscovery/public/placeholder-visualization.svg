@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f8f9fa" rx="10" ry="10" />
+  
+  <!-- Hexagon for benzene ring -->
+  <polygon points="100,70 120,85 120,115 100,130 80,115 80,85" stroke="#666" stroke-width="2" fill="#e9ecef" />
+  
+  <!-- Additional groups -->
+  <line x1="120" y1="85" x2="140" y2="75" stroke="#666" stroke-width="2" />
+  <circle cx="140" cy="75" r="8" fill="#d0ebff" stroke="#666" stroke-width="1" />
+  <text x="140" y="78" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">OH</text>
+  
+  <line x1="100" y1="130" x2="100" y2="150" stroke="#666" stroke-width="2" />
+  <circle cx="100" cy="150" r="8" fill="#ffe3e3" stroke="#666" stroke-width="1" />
+  <text x="100" y="153" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">O</text>
+  
+  <line x1="80" y1="85" x2="60" y2="75" stroke="#666" stroke-width="2" />
+  <circle cx="60" cy="75" r="8" fill="#d3f9d8" stroke="#666" stroke-width="1" />
+  <text x="60" y="78" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">N</text>
+  
+  <!-- Atom labels in the hexagon -->
+  <text x="100" y="85" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">C</text>
+  <text x="100" y="115" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">C</text>
+  
+  <!-- Title and caption -->
+  <text x="100" y="180" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#333">COVID-19 Inhibitor</text>
+  <text x="100" y="195" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">Molecule visualization</text>
+</svg> 
