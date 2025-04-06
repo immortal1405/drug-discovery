@@ -46,3 +46,7 @@ Thumbs.db
 *.sqlite
 *.sqlite3
 *.db molecular-service-account-key.json
+
+# Service account credentials
+*service-account*.json
+*key*.json
