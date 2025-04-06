@@ -45,4 +45,4 @@ Thumbs.db
 # Database files
 *.sqlite
 *.sqlite3
-*.db 
+*.db molecular-service-account-key.json
